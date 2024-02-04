@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+
+ <body>
+  <div id="time">
+   <div class="circle" id="days" style="--clr:#29bbff;">
+    <svg>
+     <circle cx="70" cy="70" r="70" id="dd"></circle>
+    </svg>
+    <div class="time-unit" id="days-unit">00<br><span>Days</span></div>
+   </div>
+   <div class="circle" id="hours" style="--clr:#ff2972;">
+    <svg>
+     <circle cx="70" cy="70" r="70" id="hh"></circle>
+    </svg>
+    <div class="time-unit" id="hours-unit">00<br><span>Hours</span></div>
+   </div>
+   <div class="circle" id="minutes" style="--clr:#fee800;">
+    <svg>
+     <circle cx="70" cy="70" r="70" id="mm"></circle>
+    </svg>
+    <div class="time-unit" id="minutes-unit">00<br><span>Minutes</span></div>
+   </div>
+   <div class="circle" id="seconds" style="--clr:#04fc43;">
+    <svg>
+     <circle cx="70" cy="70" r="70" id="ss"></circle>
+    </svg>
+    <div class="time-unit" id="seconds-unit">00<br><span>Seconds</span></div>
+   </div>
+  </div>
+
+  <script src="script.js"></script>
+ </body>
+
+</html>
